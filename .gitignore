@@ -1,0 +1,67 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints
+
+# Python Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Logs and debug files
+logs/
+*.log
+*.out
+*.err
+
+# Models
+models/
+!models/README.md
+
+# Environment files
+.env
+env.yaml
+environment.yml
+
+# macOS
+.DS_Store
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Linting and formatting
+.flake8
+.pre-commit-config.yaml
+.mypy_cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Test artifacts
+*.pytest_cache
+test-results/
+tests/__pycache__/
+
+# Generated docs
+docs/_build/
+
+# GitHub Actions
+.github/
+
+echo "Project setup completed successfully."
+
